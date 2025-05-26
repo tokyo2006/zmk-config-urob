@@ -1,5 +1,10 @@
 # urob's zmk-config
 
+[![ZMK](https://img.shields.io/badge/dynamic/yaml?url=https://raw.githubusercontent.com/urob/zmk-config/refs/heads/main/config/west.yml&query=$.manifest.defaults.revision&label=zmk&color=blue)](https://zmk.dev/)
+[![zmk-helpers](https://img.shields.io/badge/dynamic/yaml?url=https://raw.githubusercontent.com/urob/zmk-config/refs/heads/main/config/west.yml&query=$.manifest.defaults.revision&label=zmk-helpers&color=teal)](https://github.com/urob/zmk-helpers)
+[![Build ZMK firmware (nix)](https://github.com/urob/zmk-config/actions/workflows/build-nix.yml/badge.svg)](https://github.com/urob/zmk-config/actions/workflows/build-nix.yml)
+[![Test Local Build Environment](https://github.com/urob/zmk-config/actions/workflows/test-build-env.yml/badge.svg)](https://github.com/urob/zmk-config/actions/workflows/test-build-env.yml)
+
 This is my personal [ZMK firmware](https://github.com/zmkfirmware/zmk/)
 configuration. It consists of a 34-keys base layout that is re-used for various
 boards, including my Corneish Zen and my Planck.
